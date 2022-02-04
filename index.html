@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>APOD</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="icon" type="image/x-icon" href="Half-Moon-PNG.png">
+</head>
+
+<body>
+    <main class="container">
+        <div class="cx1">
+            <h1 id="astro">Astronomy Picture of the Day</h1>
+            <h3 id="escolha">Escolha uma data:</h3>
+            <div class="databtn">
+                <input id="date" type="date" min="1995-06-20"/>
+                <button type="button" id="button">Buscar</button>
+            </div>
+            <h2 id="titulo"></h2>
+
+            <p id="texto">
+                O Astronomy Picture of the Day (APOD, em português: Imagem Astronômica
+                do Dia) é um website mantido pela NASA e pela Universidade Tecnológica
+                de Michigan. De acordo com o website, "cada dia uma imagem ou foto
+                diferente do universo é mostrada, com uma curta explicação escrita por
+                um astrônomo profissional". A fotografia mostrada não foi
+                necessariamente tomada no mesmo dia em que foi mostrada, e por vezes
+                fotos já mostradas anteriormente são apresentadas novamente.
+            </p>
+        </div>
+        <div class="cx2">
+            <img src="" id="foto" />
+        </div>
+    </main>
+
+
+    <footer id="footer">
+        <p>&copy;2022 - Fernanda Barreto - Desenvolvido para fins educativos</p>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
